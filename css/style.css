@@ -32,10 +32,24 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+/* Logo 容器 */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+/* Logo 图片 */
+.logo-img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
 
 .nav-menu {
     display: flex;
